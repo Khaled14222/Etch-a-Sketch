@@ -1,3 +1,10 @@
+.Par{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
 .container{
   display: flex;
   color: red;
@@ -8,14 +15,15 @@
   align-items: center;
 }
 
+
 .Grids{
-  width: 600px;
-  height: 600px;
-  transition: background-color 0.4s;
+  width: 100px;
+  height: 100px;
+  transition: background-color 0.1s;
   background-color: tomato;
-  border: 5px solid black;
+  /*border: 5px solid black;*/
 }
 .Grids:hover{
   background-color: bisque;
-  transition: background-color 0.4s;
+  transition: background-color 0.1s;
 }
