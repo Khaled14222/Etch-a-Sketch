@@ -1,6 +1,6 @@
 let cont = document.querySelector(".container");
 
-let howMany = 16; //when adding prompt modify this value so I can change the loop amount
+let howMany = 32; //when adding prompt modify this value so I can change the loop amount
 
 
 for(let i = 0; i < howMany; i++){
